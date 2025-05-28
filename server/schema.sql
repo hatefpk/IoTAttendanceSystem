@@ -1,0 +1,12 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fingerprint_id INT NOT NULL,
+    template BLOB NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE attendance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fingerprint_id INT NOT NULL,
+    timestamp DATETIME NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
