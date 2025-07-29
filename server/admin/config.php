@@ -9,7 +9,6 @@ define("DB_NAME", "attendance_db");
 // Manually maintained list of Pico IPs
 $pico_ips = [
     "192.168.1.101", // Pico 1
-    "192.168.1.102", // Pico 2
     // Add more as needed
 ];
 ?>
