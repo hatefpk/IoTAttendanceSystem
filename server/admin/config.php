@@ -1,6 +1,6 @@
 <?php
 // Configuration file for manual Pico IPs and settings
-define("PRESHARED_KEY", "KEY_1234567890");
+define("PRESHARED_KEY", "fanoos_42");
 define("DB_HOST", "localhost");
 define("DB_USER", "user");
 define("DB_PASS", "secure_pass_123");
